@@ -1,0 +1,157 @@
+body {
+  background: rgb(0, 0, 0);
+  font-family: "Muli", sans-serif;
+}
+
+.provider-success{
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9943019943019943) 10%,
+    rgba(15, 9, 89, 1) 46%,
+    rgba(0, 0, 0, 1) 74%
+  );
+}
+
+.provider-error {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.9943) 20%,
+    rgba(15, 9, 89, 1) 10%,
+    rgba(0, 0, 0, 1) 70%
+  );
+  text-align: center;
+  justify-content: center;
+}
+
+.contract,
+.existing-contracts {
+  margin: 20px;
+  display: inline-block;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 70px 70px 120px 12px;
+  background-color: #fff;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.heading,
+p {
+  color: #eee;
+}
+
+.heading-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title > p {
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+#container-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input::placeholder {
+  font-family: cursive;
+}
+
+.button {
+  background-color: #f58427;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button {
+  color: white;
+  background-color: rgba(15, 9, 89, 1);
+  transition: 0.2s ease-in-out;
+  border-left: 3px transparent solid;
+  border-right: 3px transparent solid;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #10ffb4;
+  background-color: black;
+  border-left: #10ffb4 3px solid;
+  border-right: #10ffb4 3px solid;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  background-color: #eee;
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
